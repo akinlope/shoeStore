@@ -1,3 +1,7 @@
+
+- **NIKE STORE**: 
+- **A simple nike sore where you can purchase nike shoes**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
