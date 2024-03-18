@@ -9,11 +9,11 @@ export const Card = () => {
  
 
   return (
-    <div className=" lg:flex md:flex justify-around mx-10  flex-wrap mt-20">
+    <div className=" lg:flex md:flex justify-around mx-10 rounded-md  flex-wrap mt-20">
       {SHOE_DATA.map((item) => {
         return (
-          <div key={item.id} className=" text-white border-2 border-stxt rounded-md lg:w-2/5 md:w-2/5 mb-10 ">
-            <div className=" h-52 overflow-hidden">
+          <div key={item.id} className=" text-white border border-stxt rounded-md lg:w-2/5 md:w-2/5 mb-10 ">
+            <div className=" h-52 overflow-hidden rounded-t-md">
               <img
                 className=" object-cover h-full w-full rounded-t-md md:hover:scale-125 lg:hover:scale-125 transition duration-500 ease-in-out"
                 src={item.image}
