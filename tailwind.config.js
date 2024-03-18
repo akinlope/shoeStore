@@ -14,7 +14,7 @@ module.exports = {
         "paci": "Pacifico"
       },
       screens: {
-        "sm": "430px",
+        "sm": "100px",
         "md": "768px",
         "lg": "1024px"
       }
