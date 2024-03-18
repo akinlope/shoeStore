@@ -69,7 +69,7 @@ const Mode = forwardRef(function Modal(props, ref) {
                   <p className=" text-btxt font-bold">{item.title}</p>{" "}
                   <p className=" -mt-2">(${item.price})</p>
                 </div>
-                <div className=" flex w-40 justify-around">
+                <div className=" flex w-40 justify-around items-center">
                   <Button
                     onClick={() => {
                       updateCart(
@@ -82,7 +82,7 @@ const Mode = forwardRef(function Modal(props, ref) {
                       );
                     }}
                     className={
-                      " px-2 hover:bg-slate-500 text-2xl font-bold rounded-md items-center flex-col justify-center"
+                      " px-2 hover:bg-slate-500 text-2xl font-bold rounded-md pb-1"
                     }
                   >
                     -
@@ -100,7 +100,7 @@ const Mode = forwardRef(function Modal(props, ref) {
                       );
                     }}
                     className={
-                      " px-2 hover:bg-slate-700 text-2xl font-bold items-center rounded-md flex-col justify-center"
+                      " px-2 hover:bg-slate-700 text-2xl font-bold rounded-md pb-1"
                     }
                   >
                     +
