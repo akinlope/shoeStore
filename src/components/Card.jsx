@@ -13,7 +13,7 @@ export const Card = () => {
       {SHOE_DATA.map((item) => {
         return (
           <div key={item.id} className=" text-white border border-stxt rounded-md lg:w-2/5 md:w-2/5 mb-10 ">
-            <div className=" h-52 rounded-t-md">
+            <div className=" h-52 overflow-hidden rounded-t-md">
               <img
                 className=" object-cover h-full w-full rounded-t-md md:hover:scale-125 lg:hover:scale-125 transition duration-500 ease-in-out"
                 src={item.image}
