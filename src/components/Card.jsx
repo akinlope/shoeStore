@@ -18,6 +18,7 @@ export const Card = () => {
                 className=" object-cover h-full w-full rounded-t-md md:hover:scale-125 lg:hover:scale-125 transition duration-500 ease-in-out"
                 src={item.image}
                 alt={item.title}
+                loading="lazy"
               />
             </div>
             <div className=" text-center font-semibold mt-2 text-2xl">
